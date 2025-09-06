@@ -1,0 +1,30 @@
+[project]
+user_env = []
+session_timeout = 3600
+user_session_timeout = 1296000
+cache = false
+allow_origins = ["*"]
+
+[features]
+unsafe_allow_html = false
+latex = false
+user_message_autoscroll = true
+auto_tag_thread = true
+edit_message = true
+
+[UI]
+name = "Punjab College Reception Bot"
+description = "Reception Bot for Punjab College Nowshera Virkan"
+cot = "full"
+logo_file_url = "https://i.postimg.cc/RhQJx5RY/idg5-VQOkg-H-1756630706455.jpg"
+default_avatar_file_url = "https://i.postimg.cc/RhQJx5RY/idg5-VQOkg-H-1756630706455.jpg"
+hide_message_dots = true
+
+[[UI.header_links]]
+name = "PGC"
+display_name = "Punjab Group of Colleges"
+icon_url = "https://i.postimg.cc/RhQJx5RY/idg5-VQOkg-H-1756630706455.jpg"
+url = "https://pgc.edu"
+
+[meta]
+generated_by = "2.7.1.1"
