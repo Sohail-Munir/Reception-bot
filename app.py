@@ -281,3 +281,9 @@ async def main(message: cl.Message):
 
     # Send response with typing effect and header
     await type_effect(bot_response_with_emojis)
+    if __name__ == "__main__":
+        PORT = int(os.environ.get("PORT", 8000))
+    cl.run(app, host="0.0.0.0", port=PORT)
+        
+    
+      
